@@ -59,9 +59,3 @@ Static site, no server-side code — deploy the whole folder to **Netlify** or *
 ## Project structure
 
 See [`PROJECT_STRUCTURE.md`](./PROJECT_STRUCTURE.md) for the full folder map and what belongs where.
-
-## Known gaps / next steps
-
-- `assets/data/testimonials.json` is empty — populate once you have real client/colleague quotes.
-- Four "future features" from the original brief (GitHub stats, Power BI dashboard embed, search/filter, PWA/offline support) are intentionally **not** implemented — this is placeholder-free, working code only. See `docs/ROADMAP.md` for notes if you want to pick these up later.
-- The original expanded project brief referenced four additional case studies (Medilux, Fixed Asset Transfer Enhancement, Business Central Reports, Vendor Performance Tracker) that don't exist in the source content — they were intentionally **not invented**. Add them to `projects.json` once you have real write-ups.
