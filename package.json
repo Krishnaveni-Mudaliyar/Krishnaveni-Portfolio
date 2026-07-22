@@ -4,8 +4,29 @@
   "description": "Personal portfolio of Krishnaveni Mudaliyar — Microsoft Dynamics 365 Business Central (AL) Developer & full-stack engineer.",
   "private": true,
   "scripts": {
-    "start": "npx serve .",
-    "build:css": "bash scripts/build-css.sh"
+    "start": "live server",
+    "build:css": "bash scripts/build-css.sh",
+     "format": "prettier --write .",
+    "lint": "eslint assets/js",
+    "deploy": "gh-pages -d .",
+    "build": "npm run optimize && npm run sitemap",
+    "optimize": "node scripts/optimize-images.js",
+    "sitemap": "node scripts/generate-sitemap.js"
+  },
+   "devDependencies": {
+    "eslint": "^9.x",
+    "gh-pages": "^6.x",
+    "prettier": "^3.x",
+    "sharp": "^0.34.x",
+    "sitemap": "^8.x"
+  },
+   "dependencies": {
+    "aos": "^2.x",
+    "chart.js": "^4.x",
+    "font-awesome": "^4.x",
+    "glightbox": "^3.x",
+    "swiper": "^11.x",
+    "typed.js": "^2.x"
   },
   "author": "Krishnaveni Mudaliyar",
   "license": "MIT"
