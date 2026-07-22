@@ -1,17 +1,20 @@
 .hub-section,
-.recruiter-section {
+.recruiter-section,
+.resume-section {
   padding: 4rem 0 2rem;
 }
 
 .hub-grid,
-.recruiter-grid {
+.recruiter-grid,
+.resume-grid {
   display: grid;
   gap: 1.25rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .hub-card,
-.recruiter-card {
+.recruiter-card,
+.resume-card {
   border: 1px solid var(--border-color, rgba(0, 0, 0, 0.12));
   border-radius: 1.25rem;
   padding: 1.35rem;
@@ -34,13 +37,15 @@
 }
 
 .hub-card h3,
-.recruiter-card h3 {
+.recruiter-card h3,
+.resume-card h3 {
   font-size: clamp(1.15rem, 2vw, 1.4rem);
   margin-bottom: 0.6rem;
 }
 
 .hub-card p,
-.recruiter-card p {
+.recruiter-card p,
+.resume-card p {
   color: var(--text-muted, #5d6470);
   line-height: 1.7;
 }
@@ -62,6 +67,13 @@
   margin-top: 0.9rem;
 }
 
+.resume-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
 .recruiter-metric {
   border-bottom: 1px solid var(--border-color, rgba(0, 0, 0, 0.1));
   padding-bottom: 0.6rem;
@@ -74,7 +86,8 @@
 
 @media (max-width: 760px) {
   .hub-grid,
-  .recruiter-grid {
+  .recruiter-grid,
+  .resume-grid {
     grid-template-columns: 1fr;
   }
 
