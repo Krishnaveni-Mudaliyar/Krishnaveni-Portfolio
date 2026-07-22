@@ -1,0 +1,2 @@
+// Placeholder: no testimonials collected yet. Populate this array using the same
+shape as the JSON Testimonial Widget project (name, role, avatar, quote, rating).

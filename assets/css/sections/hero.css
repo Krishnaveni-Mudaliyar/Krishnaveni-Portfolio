@@ -1,0 +1,28 @@
+#hero { min-height: 100vh; display: flex; align-items: flex-end; padding: 0 60px 80px; position: relative; overflow: hidden; }
+.hero-bg-text {
+  position: absolute; top: 50%; right: -2%; transform: translateY(-50%);
+  font-family: 'Cormorant Garamond', serif; font-size: clamp(100px,16vw,240px); font-weight: 300; font-style: italic;
+  color: transparent; -webkit-text-stroke: 1px var(--rule); pointer-events: none; user-select: none; line-height: 1; white-space: nowrap;
+}
+.hero-content { position: relative; z-index: 2; max-width: 860px; }
+.hero-eyebrow { font-family: 'DM Mono', monospace; font-size: .72rem; letter-spacing: .25em; text-transform: uppercase; color: var(--gold); margin-bottom: 24px; opacity: 0; animation: fadeUp .8s .3s forwards; }
+.hero-name { font-size: clamp(42px,7vw,96px); font-weight: 300; line-height: .95; letter-spacing: -.02em; margin-bottom: 28px; opacity: 0; animation: fadeUp .9s .5s forwards; }
+.hero-name em { font-style: italic; color: var(--gold); }
+.hero-tagline { font-size: 1.2rem; font-weight: 400; color: var(--muted); max-width: 560px; line-height: 1.6; margin-bottom: 36px; opacity: 0; animation: fadeUp .9s .7s forwards; }
+.hero-badges { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 44px; opacity: 0; animation: fadeUp .9s .85s forwards; }
+.hero-actions { display: flex; gap: 32px; align-items: center; flex-wrap: wrap; opacity: 0; animation: fadeUp .9s 1s forwards; }
+.hero-scroll-line {
+  position: absolute; right: 60px; bottom: 80px; display: flex; flex-direction: column; align-items: center; gap: 10px;
+  font-family: 'DM Mono', monospace; font-size: .6rem; letter-spacing: .2em; text-transform: uppercase; color: var(--muted);
+  writing-mode: vertical-rl; opacity: 0; animation: fadeIn 1s 1.2s forwards;
+}
+.hero-scroll-line::before { content: ''; width: 1px; height: 60px; background: linear-gradient(to bottom, transparent, var(--gold)); animation: lineGrow 1.5s 1.4s forwards; transform-origin: top; transform: scaleY(0); }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes lineGrow { to { transform: scaleY(1); } }
+
+@media (max-width: 900px) {
+  #hero { padding: 0 28px 60px; }
+  .hero-scroll-line { display: none; }
+}

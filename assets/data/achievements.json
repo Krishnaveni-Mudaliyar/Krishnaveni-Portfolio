@@ -1,0 +1,10 @@
+[
+  { "icon": "🧘", "name": "Yoga", "desc": "Stillness & balance" },
+  { "icon": "🎵", "name": "Music", "desc": "Melody & expression" },
+  { "icon": "✈️", "name": "Travelling", "desc": "Discovering new worlds" },
+  { "icon": "📖", "name": "Philosophy", "desc": "Questions worth asking" },
+  { "icon": "💻", "name": "Open Source", "desc": "Building for community" },
+  { "icon": "🌿", "name": "Mindful Living", "desc": "Intentional every day" },
+  { "icon": "📚", "name": "Continuous Learning", "desc": "Always a student" },
+  { "icon": "🌐", "name": "Tech & Society", "desc": "Where the two meet" }
+]

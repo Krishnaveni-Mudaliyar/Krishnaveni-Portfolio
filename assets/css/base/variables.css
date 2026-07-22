@@ -1,0 +1,32 @@
+/* Light theme (default) */
+:root,
+:root[data-theme="light"] {
+  --ink: #0e0d0c;
+  --paper: #f5f0e8;
+  --cream: #ede7d9;
+  --gold: #b89a5c;
+  --gold-light: #d4b87a;
+  --muted: #6b5f4d;
+  --rule: #d0c4b0;
+  --contact-rule: #2a2620;
+  --contact-sub: #a89a84;
+  --footer-sig: #3a3530;
+  --contact-bg: #0e0d0c;
+  --contact-text: #f5f0e8;
+}
+
+/* Dark theme */
+:root[data-theme="dark"] {
+  --ink: #f2ede2;
+  --paper: #14120f;
+  --cream: #1c1a15;
+  --gold: #d4b87a;
+  --gold-light: #e8cf9c;
+  --muted: #a89a84;
+  --rule: #3a352c;
+  --contact-rule: #3a352c;
+  --contact-sub: #8a7d68;
+  --footer-sig: #59503f;
+  --contact-bg: #0a0908;
+  --contact-text: #f2ede2;
+}

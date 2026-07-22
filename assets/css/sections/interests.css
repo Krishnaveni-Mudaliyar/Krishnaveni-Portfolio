@@ -1,0 +1,12 @@
+.interests-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 2px; }
+.interest-item { aspect-ratio: 1; display: flex; flex-direction: column; justify-content: flex-end; padding: 28px; background: var(--cream); overflow: hidden; transition: background .3s; }
+.interest-icon { font-size: 2rem; margin-bottom: 12px; transition: transform .3s; line-height: 1; }
+.interest-item:hover { background: var(--ink); }
+.interest-item:hover .interest-icon { transform: scale(1.2); }
+.interest-name { font-size: 1.1rem; font-weight: 400; transition: color .3s; }
+.interest-item:hover .interest-name { color: var(--paper); }
+.interest-desc { font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .1em; color: var(--muted); margin-top: 4px; }
+
+@media (max-width: 900px) {
+  .interests-grid { grid-template-columns: repeat(2,1fr); }
+}

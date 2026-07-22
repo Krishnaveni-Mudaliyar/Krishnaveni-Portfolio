@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "employee-asset-tracking",
+    "flagship": true,
+    "icon": "🖥️",
+    "name": "Employee Asset Tracking Module",
+    "githubUrl": "https://github.com/Krishnaveni-Mudaliyar/Employee-Asset-Tracking-Module",
+    "stack": ["AL Language", "Dynamics 365 BC", "Report Builder"],
+    "description": "A custom Business Central extension built in AL that enables organisations to track, assign, and manage company assets (laptops, phones, equipment) tied to individual employees — directly within the ERP system.",
+    "features": [
+      "Custom tables and pages for asset records with full CRUD operations",
+      "Asset assignment workflow linking items to employees with date tracking",
+      "Status management — Available, Assigned, Under Repair, Retired",
+      "RDLC reports for asset inventory and employee-wise asset statements",
+      "Integrated seamlessly into the existing BC navigation and permission model"
+    ]
+  },
+  {
+    "slug": "online-examination-portal",
+    "flagship": false,
+    "icon": "📝",
+    "name": "Online Examination Portal",
+    "githubUrl": "https://github.com/Krishnaveni-Mudaliyar/online-examination-portal",
+    "stack": ["PHP", "MySQL", "HTML/CSS"],
+    "description": "A full-featured web-based examination system built in PHP that allows administrators to create and manage online tests while students take timed assessments from any browser — no installation required.",
+    "features": [
+      "Admin panel to create, edit, and schedule exams with question banks",
+      "Timed exam interface with auto-submit on session expiry",
+      "Instant result generation with score summary and answer review",
+      "Role-based access for admins and students with secure login",
+      "MySQL-backed storage for questions, responses, and result history"
+    ]
+  },
+  {
+    "slug": "travel-blog",
+    "flagship": false,
+    "icon": "🌍",
+    "name": "Travel Blog",
+    "githubUrl": "https://github.com/Krishnaveni-Mudaliyar/travelblog",
+    "stack": ["PHP", "MySQL", "HTML/CSS"],
+    "description": "A dynamic travel blogging platform built with PHP where authors can publish destination stories, travel guides, and photo-rich articles — complete with a content management backend and reader-facing frontend.",
+    "features": [
+      "Custom CMS for creating, editing, and publishing blog posts",
+      "Category and tag-based filtering for destinations and trip types",
+      "Responsive, image-forward layout optimised for storytelling",
+      "Comment system and post search functionality",
+      "Admin dashboard with post and user management"
+    ]
+  },
+  {
+    "slug": "json-testimonial-widget",
+    "flagship": false,
+    "icon": "💬",
+    "name": "JSON Testimonial Widget",
+    "githubUrl": "https://github.com/Krishnaveni-Mudaliyar/JSON-Testimonial",
+    "stack": ["HTML", "CSS", "JavaScript", "JSON"],
+    "description": "A lightweight, zero-dependency testimonial component that reads reviewer data from a JSON source and renders it as a sleek, animated carousel — easily embeddable into any website without a backend.",
+    "features": [
+      "JSON-driven content — add or update testimonials without touching the code",
+      "Smooth auto-rotating carousel with manual navigation controls",
+      "Star rating display, reviewer name, role, and avatar support",
+      "Fully responsive and keyboard-accessible",
+      "Pure vanilla JS — no frameworks or external dependencies"
+    ]
+  }
+]

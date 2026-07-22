@@ -1,0 +1,26 @@
+[
+  {
+    "period": "Jun 2025 — Present",
+    "company": "Leaping Frog Solutions Pvt. Ltd.",
+    "companyBadge": "Gold Microsoft Partner",
+    "role": "Associate Technical Consultant",
+    "description": "Working on Microsoft Dynamics 365 Business Central implementations for enterprise clients across finance and operations. Responsible for AL language customisation, system configuration, and RDLC report development using Microsoft Report Builder. Work from specifications provided by functional consultants, translating business processes into robust ERP workflows — covering financial management, inventory, and procurement. Also contributes to internal web development initiatives, applying full-stack skills to internal tooling and client-facing interfaces.",
+    "tags": ["Dynamics 365 BC", "AL Language", "Report Builder", "SQL", "HTML / CSS / JS"]
+  },
+  {
+    "period": "Aug 2024 — Dec 2024",
+    "company": "GAOTek Inc.",
+    "companyBadge": "",
+    "role": "Web Content Associate",
+    "description": "Managed structured web content uploads for a global supplier of electronic test and measurement equipment. Ensured product listings, technical specifications, and marketing copy were accurate, SEO-aligned, and consistently formatted across a large digital catalogue. Developed precision, discipline, and a sharp eye for quality — skills that translate directly into technical documentation and client-facing work today.",
+    "tags": ["Content Management", "SEO", "HTML", "CMS"]
+  },
+  {
+    "period": "Jul 2023 — Jun 2024",
+    "company": "Scogo Networks",
+    "companyBadge": "",
+    "role": "Technical Project Coordinator → IT Support Executive",
+    "description": "Started as a Technical Project Coordinator — liaising between field engineers, operations, and clients to ensure on-time delivery of networking and broadband connectivity projects. Managed ticketing systems, tracked SLAs, and served as the vital bridge between technical teams and non-technical stakeholders. Transitioned into an IT Support Executive role, providing on-ground and remote technical assistance across Scogo's fast-paced telecom environment, deepening hands-on infrastructure and troubleshooting expertise.",
+    "tags": ["Project Coordination", "IT Support", "Networking", "SLA Management", "Stakeholder Comms"]
+  }
+]

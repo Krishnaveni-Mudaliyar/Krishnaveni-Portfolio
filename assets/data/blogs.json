@@ -1,0 +1,182 @@
+[
+  {
+    "day": "Day 01",
+    "title": "Setup Environment in Microsoft Dynamics 365 BC",
+    "excerpt": "Kicked off a 30-day journey to master end-to-end setup of Dynamics 365 Business Central via the CDX portal, signing in, selecting a partner role, and creating a Demo Tenant.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 02",
+    "title": "Installing, downloading symbols and publishing code",
+    "excerpt": "Set up the local development environment for AL extension development — installing Visual Studio Code and laying the groundwork for the rest of the series.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 03",
+    "title": "Variables in AL Development",
+    "excerpt": "Explored variables in AL — how they store and manage data at runtime, and why every variable needs a name, type, and defined scope.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 04",
+    "title": "Laying the Foundation",
+    "excerpt": "Explored the core building blocks of Business Central's data architecture: Tables — their purpose, capacity limits, and key components.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 05",
+    "title": "Tables vs Pages in BC",
+    "excerpt": "Unpacked the key conceptual difference between Tables and Pages in Business Central, and how data and UI work together.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 06",
+    "title": "Employee Asset Tracking Module",
+    "excerpt": "Launched the Employee Asset Tracking module — building List and Card pages for Employees, Assets, and Asset Assignments.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 07",
+    "title": "Designing Table Relationships in BC",
+    "excerpt": "Most Business Central issues don’t start with code… They start with bad data relationships.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 08",
+    "title": "Using Triggers to Enforce Business Rules",
+    "excerpt": "In Business Central development, tables don’t just store data — they also enforce business rules.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 09",
+    "title": "Keys & Database Performance in BC",
+    "excerpt": "When designing tables in Business Central, keys are critical for performance.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 10",
+    "title": "TableRelation vs ValidateTableRelation",
+    "excerpt": "In AL development, TableRelation is commonly used to link fields between tables.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 11",
+    "title": "Structuring Business Logic with Codeunits",
+    "excerpt": "As my Employee Asset Tracking Module grows, I started moving business logic out of tables and pages into Codeunits.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 12",
+    "title": "Writing Reusable Procedures in AL",
+    "excerpt": "As developers, repeating the same logic across multiple objects quickly becomes a maintenance problem.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 13",
+    "title": "Working with Record Variables",
+    "excerpt": "In Business Central, most development revolves around Record variables, which represent rows in database tables.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 14",
+    "title": "Temporary Tables in BC",
+    "excerpt": "Temporary tables are one of the most powerful tools available to Business Central developers.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 15",
+    "title": "FlowFields & Calculated Data",
+    "excerpt": "Sometimes we need calculated values without storing them in the database.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 16",
+    "title": "Extending Standard Tables in BC",
+    "excerpt": "One of the most powerful concepts in modern Business Central development is Extensibility.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 17",
+    "title": "Extending Standard Pages",
+    "excerpt": "After extending tables, the next step is making those fields visible to users.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 18",
+    "title": "Event-Driven Development in BC",
+    "excerpt": "Modern Business Central development relies heavily on events.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 19",
+    "title": "Event Subscribers in AL",
+    "excerpt": "In the previous post, I introduced events. Now let’s look at how extensions respond to those events using Event Subscribers.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 20",
+    "title": "Enums vs Options in AL",
+    "excerpt": "In older NAV/BC versions, developers often used Option fields to define a list of possible values.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 21",
+    "title": "Creating API Pages in BC",
+    "excerpt": "Modern ERP systems rarely operate in isolation — they often need to integrate with external systems, which is where API pages come in.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 22",
+    "title": "Consuming REST APIs in BC",
+    "excerpt": "Business Central doesn't just expose APIs — it can also consume APIs from external systems, pulling in outside data.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 23",
+    "title": "Working with JSON in AL",
+    "excerpt": "Most modern APIs return data in JSON format.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 24",
+    "title": "Automating Processes with Job Queue",
+    "excerpt": "Many ERP tasks need to run automatically in the background.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 25",
+    "title": "Debugging Extensions in BC",
+    "excerpt": "Debugging is a critical skill for every Business Central developer.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 26",
+    "title": "Performance Optimization in BC",
+    "excerpt": "As Business Central systems grow, performance optimization becomes critical.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 27",
+    "title": "Query Objects in BC",
+    "excerpt": "While tables store data and pages display it, Query objects allow developers to retrieve optimized datasets.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 28",
+    "title": "Reports in BC",
+    "excerpt": "Reports are essential for decision-making in any ERP system.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 29",
+    "title": "Extension Versioning & Deployment",
+    "excerpt": "In modern Business Central development, solutions are delivered as extensions.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  },
+  {
+    "day": "Day 30",
+    "title": "Lessons from Building a BC Module",
+    "excerpt": "Over the past 30 days, I built and explored a complete Employee Asset Tracking Module in Microsoft Dynamics 365 Business Central.",
+    "url": "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/"
+  }
+]

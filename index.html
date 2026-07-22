@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krishnaveni Mudaliyar — Business Central (AL) Developer &amp; Full-Stack Engineer</title>
+<meta name="description" content="Portfolio of Krishnaveni Mudaliyar — Microsoft Dynamics 365 Business Central (AL) Developer and full-stack web engineer based in Mumbai. AL extensions, RDLC reporting, and modern JavaScript projects.">
+<meta name="theme-color" content="#f5f0e8">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Krishnaveni Mudaliyar — Business Central (AL) Developer">
+<meta property="og:description" content="Enterprise ERP solutions and purposeful web experiences — Microsoft Dynamics 365 Business Central meets clean, human-centred code.">
+<meta property="og:url" content="https://krishnaveni-mudaliyar.github.io/">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://krishnaveni-mudaliyar.github.io/">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/main.css">
+
+<!-- Applied before paint to avoid a light/dark flash on load -->
+<script>
+  (function () {
+    var stored = localStorage.getItem('portfolio-theme');
+    var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Krishnaveni Mudaliyar",
+  "jobTitle": "Associate Technical Consultant — Microsoft Dynamics 365 Business Central (AL) Developer",
+  "url": "https://krishnaveni-mudaliyar.github.io/",
+  "sameAs": [
+    "https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/",
+    "https://github.com/Krishnaveni-Mudaliyar"
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">Krishnaveni M.</a>
+  <button type="button" id="navToggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Work</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#interests">Interests</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><button type="button" id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">Dark</button></li>
+  </ul>
+</nav>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-text" id="heroBgText" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow" id="heroEyebrow"></p>
+      <h1 class="hero-name" id="heroName"></h1>
+      <p class="hero-tagline" id="heroTagline"></p>
+      <div class="hero-badges" id="heroBadges"></div>
+      <div class="hero-actions">
+        <a href="#about" class="cta-link">Explore my work &nbsp;→</a>
+        <a href="#" id="heroResumeLink" download class="cta-link">Download Resume &nbsp;↓</a>
+      </div>
+    </div>
+    <div class="hero-scroll-line">Scroll</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header reveal">
+      <span class="section-num">01</span>
+      <h2 class="section-title">About <em>Me</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal" id="aboutText"></div>
+      <div class="about-stats reveal" id="aboutStats"></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-header reveal">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Work <em>Experience</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="exp-list" id="expList"></div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Skills &amp; <em>Expertise</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Featured <em>Projects</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-header reveal">
+      <span class="section-num">05</span>
+      <h2 class="section-title"><em>Education</em> &amp; Certifications</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="edu-section-grid">
+      <div class="reveal">
+        <div class="edu-subsection-title">Academic Degrees</div>
+        <div class="edu-grid" id="eduGrid"></div>
+      </div>
+      <div class="reveal">
+        <div class="edu-subsection-title">Certifications</div>
+        <div class="cert-grid" id="certGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERESTS -->
+  <section id="interests" style="padding-bottom:0;">
+    <div class="section-header reveal" style="margin-bottom:48px;">
+      <span class="section-num">06</span>
+      <h2 class="section-title"><em>Interests</em></h2>
+      <div class="section-rule"></div>
+    </div>
+  </section>
+  <div class="interests-grid reveal" id="interestsGrid"></div>
+
+  <!-- BLOG -->
+  <section id="blog">
+    <div class="section-header reveal">
+      <span class="section-num">07</span>
+      <h2 class="section-title">From the <em>Blog</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <p class="blog-intro reveal">A day-by-day public learning series where I built a complete Employee Asset Tracking Module in AL — documenting the journey from environment setup through to API integration, one post at a time.</p>
+    <div class="blog-list reveal" id="blogList"></div>
+    <div class="blog-outro reveal">
+      <a href="https://www.linkedin.com/in/krishnaveni-mudaliyar-ba545b235/recent-activity/all/" target="_blank" rel="noopener" class="cta-link">View all posts on LinkedIn &nbsp;→</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <span class="section-num">08</span>
+      <h2 class="section-title">Get in <em>Touch</em></h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="reveal">
+      <p class="contact-headline">Let's create something<br>meaningful together.</p>
+      <p class="contact-sub">Open to new opportunities, collaborations, and conversations.</p>
+      <div class="contact-links">
+        <a href="#" id="contactEmail" class="contact-link">
+          <span class="contact-link-label">Email</span>
+          <span class="contact-link-value"></span>
+        </a>
+        <a href="#" id="contactLinkedin" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-link-label">LinkedIn</span>
+          <span class="contact-link-value"></span>
+        </a>
+        <a href="#" id="contactGithub" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-link-label">GitHub</span>
+          <span class="contact-link-value"></span>
+        </a>
+        <a href="#" id="contactResume" download class="contact-link">
+          <span class="contact-link-label">Resume</span>
+          <span class="contact-link-value"></span>
+        </a>
+      </div>
+    </div>
+    <p class="footer-sig" id="footerSig"></p>
+  </section>
+
+</main>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

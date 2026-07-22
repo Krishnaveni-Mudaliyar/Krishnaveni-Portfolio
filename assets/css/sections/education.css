@@ -1,0 +1,22 @@
+.edu-section-grid { display: flex; flex-direction: column; gap: 64px; }
+.edu-subsection-title { font-family: 'DM Mono', monospace; font-size: .68rem; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); margin-bottom: 28px; padding-bottom: 12px; border-bottom: 1px solid var(--rule); }
+.edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.edu-card { padding: 36px; }
+.edu-period { font-family: 'DM Mono', monospace; font-size: .65rem; letter-spacing: .15em; color: var(--gold); margin-bottom: 12px; }
+.edu-degree { font-size: 1.2rem; font-weight: 300; margin-bottom: 6px; line-height: 1.3; }
+.edu-school { font-size: .88rem; color: var(--muted); margin-bottom: 12px; }
+.edu-detail { font-size: .88rem; color: var(--muted); font-weight: 400; line-height: 1.6; }
+
+.cert-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+.cert-card { padding: 28px 24px; }
+.cert-issuer { font-family: 'DM Mono', monospace; font-size: .6rem; letter-spacing: .12em; color: var(--gold); margin-bottom: 10px; text-transform: uppercase; }
+.cert-name { font-size: .98rem; font-weight: 400; line-height: 1.3; margin-bottom: 8px; }
+.cert-date { font-family: 'DM Mono', monospace; font-size: .6rem; color: var(--muted); letter-spacing: .1em; }
+
+@media (max-width: 900px) {
+  .edu-grid { grid-template-columns: 1fr; }
+  .cert-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+  .cert-grid { grid-template-columns: 1fr; }
+}

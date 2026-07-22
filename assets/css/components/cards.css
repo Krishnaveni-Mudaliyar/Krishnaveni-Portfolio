@@ -1,0 +1,23 @@
+.card-outline {
+  border: 1px solid var(--rule);
+  position: relative;
+  overflow: hidden;
+  transition: border-color .3s;
+}
+.card-outline:hover { border-color: var(--gold); }
+
+/* Top-edge accent sweep (projects) */
+.card-accent-top::before {
+  content: ''; position: absolute; top: 0; left: 0; width: 0; height: 3px;
+  background: linear-gradient(to right, var(--gold), var(--gold-light));
+  transition: width .4s ease;
+}
+.card-accent-top:hover::before { width: 100%; }
+
+/* Left-edge accent grow (education / certification) */
+.card-accent-left::before {
+  content: ''; position: absolute; top: 0; left: 0; width: 3px; height: 0;
+  background: var(--gold);
+  transition: height .4s ease;
+}
+.card-accent-left:hover::before { height: 100%; }

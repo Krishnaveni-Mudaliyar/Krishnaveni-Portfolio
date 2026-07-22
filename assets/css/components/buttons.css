@@ -1,0 +1,15 @@
+.cta-link {
+  display: inline-flex; align-items: center; gap: 14px;
+  font-family: 'DM Mono', monospace; font-size: .72rem; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--gold); padding-bottom: 6px;
+  transition: color .25s, gap .25s; background: none; cursor: pointer;
+}
+.cta-link:hover { color: var(--gold); gap: 22px; }
+
+/* Theme toggle button */
+.theme-toggle {
+  font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--muted); background: none; border: 1px solid var(--rule); padding: 6px 12px; cursor: pointer;
+  transition: color .2s, border-color .2s;
+}
+.theme-toggle:hover { color: var(--gold); border-color: var(--gold); }

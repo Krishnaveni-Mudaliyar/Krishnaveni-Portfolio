@@ -1,0 +1,22 @@
+{
+  "name": "Krishnaveni Mudaliyar",
+  "firstName": "Krishnaveni",
+  "lastName": "Mudaliyar",
+  "eyebrow": "Associate Technical Consultant · Web Developer · Mumbai",
+  "tagline": "Building enterprise ERP solutions and purposeful web experiences — where Microsoft Business Central meets clean, human-centred code.",
+  "badges": ["Gold Microsoft Partner", "Dynamics 365 BC", "Full-Stack Development"],
+  "resumeFile": "assets/documents/Krishnaveni_Mudaliyar.pdf",
+  "about": [
+    "I'm an <strong>Associate Technical Consultant and Web Developer</strong> based in Mumbai, currently working at Leaping Frog Solutions Pvt. Ltd. — a proud <strong>Gold Microsoft Partner</strong>. My work lives at the crossroads of enterprise ERP consulting and thoughtful front-end development.",
+    "What drives me is the conviction that <strong>technology should feel effortless</strong> — whether that's a precisely mapped finance workflow in Dynamics 365 Business Central or a React component that simply behaves the way a user expects. I bring analytical rigour and creative instinct to every project I touch.",
+    "I hold an <strong>MCA from DES's Navinchandra Mehta Institute</strong> (University of Mumbai), always bridging theory with the real world. A continuous learner by nature, I hold certifications from Microsoft, TCS iON, and Great Learning — and I'm always chasing the next one.",
+    "Outside the terminal and the boardroom, you'll find me grounded on a yoga mat, humming along to good music, pondering life's bigger questions, or planning the next journey somewhere new."
+  ],
+  "stats": [
+    { "num": "2+", "label": "Years of experience" },
+    { "num": "3", "label": "Roles across industries" },
+    { "num": "5", "label": "Certifications earned" },
+    { "num": "9+", "label": "Technologies in toolkit" }
+  ],
+  "footerSignature": "© 2026 Krishnaveni Mudaliyar — Crafted with care in Mumbai"
+}

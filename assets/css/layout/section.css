@@ -1,0 +1,11 @@
+section { padding: 120px 60px; position: relative; }
+section:nth-child(even) { background: var(--cream); }
+.section-header { display: flex; align-items: baseline; gap: 24px; margin-bottom: 72px; }
+.section-rule { flex: 1; height: 1px; background: var(--rule); margin-left: 16px; }
+
+.reveal { opacity: 0; transform: translateY(40px); transition: opacity .8s ease, transform .8s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+@media (max-width: 900px) {
+  section { padding: 80px 28px; }
+}

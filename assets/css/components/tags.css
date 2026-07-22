@@ -1,0 +1,15 @@
+.tag {
+  font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .12em; text-transform: uppercase;
+  padding: 5px 12px; border: 1px solid var(--rule); color: var(--muted);
+  transition: border-color .2s, color .2s;
+}
+
+.hero-badge {
+  font-family: 'DM Mono', monospace; font-size: .62rem; letter-spacing: .12em; text-transform: uppercase;
+  padding: 6px 14px; border: 1px solid var(--gold); color: var(--gold);
+}
+
+.project-stack-badge {
+  font-family: 'DM Mono', monospace; font-size: .58rem; letter-spacing: .1em; text-transform: uppercase;
+  padding: 4px 10px; background: var(--cream); border: 1px solid var(--rule); color: var(--muted);
+}
