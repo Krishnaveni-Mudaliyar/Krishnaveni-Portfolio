@@ -1,0 +1,84 @@
+.hub-section,
+.recruiter-section {
+  padding: 4rem 0 2rem;
+}
+
+.hub-grid,
+.recruiter-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hub-card,
+.recruiter-card {
+  border: 1px solid var(--border-color, rgba(0, 0, 0, 0.12));
+  border-radius: 1.25rem;
+  padding: 1.35rem;
+  background: var(--surface-color, rgba(255, 255, 255, 0.8));
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+}
+
+.hub-card-primary {
+  grid-column: span 2;
+  background: linear-gradient(135deg, rgba(106, 90, 205, 0.14), rgba(45, 212, 191, 0.12));
+}
+
+.hub-card-eyebrow,
+.recruiter-card-eyebrow {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  color: var(--accent-color, #6a5acd);
+  margin-bottom: 0.55rem;
+}
+
+.hub-card h3,
+.recruiter-card h3 {
+  font-size: clamp(1.15rem, 2vw, 1.4rem);
+  margin-bottom: 0.6rem;
+}
+
+.hub-card p,
+.recruiter-card p {
+  color: var(--text-muted, #5d6470);
+  line-height: 1.7;
+}
+
+.hub-list {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+  padding-left: 1rem;
+}
+
+.hub-list li {
+  color: var(--text-color, #1f2937);
+}
+
+.recruiter-metrics {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 0.9rem;
+}
+
+.recruiter-metric {
+  border-bottom: 1px solid var(--border-color, rgba(0, 0, 0, 0.1));
+  padding-bottom: 0.6rem;
+}
+
+.recruiter-metric strong {
+  display: block;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 760px) {
+  .hub-grid,
+  .recruiter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hub-card-primary {
+    grid-column: span 1;
+  }
+}

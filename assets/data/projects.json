@@ -6,13 +6,13 @@
     "name": "Employee Asset Tracking Module",
     "githubUrl": "https://github.com/Krishnaveni-Mudaliyar/Employee-Asset-Tracking-Module",
     "stack": ["AL Language", "Dynamics 365 BC", "Report Builder"],
-    "description": "A custom Business Central extension built in AL that enables organisations to track, assign, and manage company assets (laptops, phones, equipment) tied to individual employees — directly within the ERP system.",
+    "description": "A custom Business Central extension designed to help organisations manage asset lifecycle processes within the ERP environment, combining business workflow thinking with practical AL implementation.",
     "features": [
-      "Custom tables and pages for asset records with full CRUD operations",
-      "Asset assignment workflow linking items to employees with date tracking",
-      "Status management — Available, Assigned, Under Repair, Retired",
-      "RDLC reports for asset inventory and employee-wise asset statements",
-      "Integrated seamlessly into the existing BC navigation and permission model"
+      "Custom tables, pages, and workflows to support asset tracking end-to-end",
+      "Assignment logic linking employees to equipment with status and date tracking",
+      "Asset lifecycle management for available, assigned, repair, and retired states",
+      "RDLC reporting for inventory visibility and employee-wise asset statements",
+      "Designed to fit naturally into Business Central navigation and security models"
     ]
   },
   {
