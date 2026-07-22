@@ -1,6 +1,7 @@
 .hub-section,
 .recruiter-section,
-.resume-section {
+.resume-section,
+.assistant-section {
   padding: 4rem 0 2rem;
 }
 
@@ -14,7 +15,8 @@
 
 .hub-card,
 .recruiter-card,
-.resume-card {
+.resume-card,
+.assistant-panel {
   border: 1px solid var(--border-color, rgba(0, 0, 0, 0.12));
   border-radius: 1.25rem;
   padding: 1.35rem;
@@ -65,6 +67,38 @@
   display: grid;
   gap: 0.8rem;
   margin-top: 0.9rem;
+}
+
+.assistant-panel {
+  padding: 1.4rem;
+}
+
+.assistant-intro {
+  margin-bottom: 1rem;
+  color: var(--text-muted, #5d6470);
+}
+
+.assistant-content {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.assistant-card {
+  border: 1px solid var(--border-color, rgba(0, 0, 0, 0.08));
+  border-radius: 1rem;
+  padding: 0.95rem 1rem;
+  background: rgba(255,255,255,0.6);
+}
+
+.assistant-card p {
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+.assistant-card span {
+  color: var(--text-muted, #5d6470);
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .resume-actions {

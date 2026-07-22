@@ -7,6 +7,7 @@ import { initReveal } from './animations/reveal.js';
 import { renderHero } from './sections/render-hero.js';
 import { renderAbout } from './sections/render-about.js';
 import { renderExperience } from './sections/render-experience.js';
+import { renderAssistant } from './sections/render-assistant.js';
 import { renderSkills } from './sections/render-skills.js';
 import { renderProjects } from './sections/render-projects.js';
 import { renderEducation } from './sections/render-education.js';
@@ -28,6 +29,7 @@ async function init() {
   renderHero(data.profile);
   renderAbout(data.profile);
   renderExperience(data.experience);
+  renderAssistant();
   renderSkills(data.skills);
   renderProjects(data.projects);
   renderEducation(data.education, data.certifications);
