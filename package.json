@@ -4,27 +4,36 @@
   "description": "Personal portfolio of Krishnaveni Mudaliyar — Microsoft Dynamics 365 Business Central (AL) Developer & full-stack engineer.",
   "private": true,
   "scripts": {
-    "start": "live server",
+    "dev": "next dev",
+    "build": "next build && npm run optimize && npm run sitemap",
+    "start": "next start",
+    "start:static": "live server",
     "build:css": "bash scripts/build-css.sh",
-     "format": "prettier --write .",
+    "format": "prettier --write .",
     "lint": "eslint assets/js",
     "deploy": "gh-pages -d .",
-    "build": "npm run optimize && npm run sitemap",
     "optimize": "node scripts/optimize-images.js",
     "sitemap": "node scripts/generate-sitemap.js"
   },
-   "devDependencies": {
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
     "eslint": "^9.x",
     "gh-pages": "^6.x",
     "prettier": "^3.x",
     "sharp": "^0.34.x",
-    "sitemap": "^8.x"
+    "sitemap": "^8.x",
+    "typescript": "^5.7.3"
   },
-   "dependencies": {
+  "dependencies": {
     "aos": "^2.x",
     "chart.js": "^4.x",
     "font-awesome": "^4.x",
     "glightbox": "^3.x",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "swiper": "^11.x",
     "typed.js": "^2.x"
   },

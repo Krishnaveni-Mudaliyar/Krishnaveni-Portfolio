@@ -10,6 +10,8 @@ import { renderExperience } from './sections/render-experience.js';
 import { renderAssistant } from './sections/render-assistant.js';
 import { renderSkills } from './sections/render-skills.js';
 import { renderProjects } from './sections/render-projects.js';
+import { renderBusinessCentral } from './sections/render-business-central.js';
+import { renderAnalytics } from './sections/render-analytics.js';
 import { renderEducation } from './sections/render-education.js';
 import { renderInterests } from './sections/render-interests.js';
 import { renderBlog } from './sections/render-blog.js';
@@ -22,7 +24,7 @@ async function init() {
   initTheme();
 
   const data = await loadAll([
-    'profile', 'experience', 'skills', 'projects',
+    'profile', 'experience', 'skills', 'projects', 'business-central', 'analytics',
     'education', 'certifications', 'achievements', 'blogs', 'socials'
   ]);
 
@@ -32,6 +34,8 @@ async function init() {
   renderAssistant();
   renderSkills(data.skills);
   renderProjects(data.projects);
+  renderBusinessCentral(data['business-central']);
+  renderAnalytics(data.analytics);
   renderEducation(data.education, data.certifications);
   renderInterests(data.achievements);
   renderBlog(data.blogs);

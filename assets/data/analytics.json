@@ -1,0 +1,12 @@
+{
+  "enabled": false,
+  "provider": "supabase",
+  "plan": "phase-1",
+  "features": [
+    "Profile view tracking",
+    "Resume download tracking",
+    "Contact form storage",
+    "Admin dashboard readiness"
+  ],
+  "notes": "This portfolio is now structured so analytics can be added without rewriting the page components."
+}

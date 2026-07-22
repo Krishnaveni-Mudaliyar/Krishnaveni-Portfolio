@@ -1,0 +1,23 @@
+{
+  "headline": "Business Central solution design and AL delivery",
+  "summary": "I translate operational requirements into practical Business Central extensions, reports, and workflow-driven experiences that support daily business operations.",
+  "focusAreas": [
+    "AL Development",
+    "Extensions & custom modules",
+    "RDLC and Excel reporting",
+    "API integration thinking",
+    "Power BI-ready reporting narratives",
+    "Workflow design and migrations"
+  ],
+  "highlights": [
+    "Custom tables and pages aligned with ERP navigation and security patterns",
+    "Business flows for approvals, lifecycle tracking, and reporting visibility",
+    "Consulting-ready documentation and implementation-minded delivery"
+  ],
+  "metrics": [
+    { "label": "AL modules", "value": "3+" },
+    { "label": "Reports delivered", "value": "50+" },
+    { "label": "BC-focused projects", "value": "8+" },
+    { "label": "Delivery focus", "value": "ERP + Web" }
+  ]
+}

@@ -1,13 +1,16 @@
 .hub-section,
 .recruiter-section,
 .resume-section,
-.assistant-section {
+.assistant-section,
+.business-central-section,
+.analytics-section {
   padding: 4rem 0 2rem;
 }
 
 .hub-grid,
 .recruiter-grid,
-.resume-grid {
+.resume-grid,
+.business-central-grid {
   display: grid;
   gap: 1.25rem;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -16,7 +19,9 @@
 .hub-card,
 .recruiter-card,
 .resume-card,
-.assistant-panel {
+.assistant-panel,
+.business-central-card,
+.analytics-card {
   border: 1px solid var(--border-color, rgba(0, 0, 0, 0.12));
   border-radius: 1.25rem;
   padding: 1.35rem;
@@ -27,6 +32,63 @@
 .hub-card-primary {
   grid-column: span 2;
   background: linear-gradient(135deg, rgba(106, 90, 205, 0.14), rgba(45, 212, 191, 0.12));
+}
+
+.business-central-card-wide {
+  grid-column: span 2;
+}
+
+.business-central-focus-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.business-central-pill {
+  border: 1px solid var(--border-color, rgba(0, 0, 0, 0.12));
+  border-radius: 999px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.9rem;
+  color: var(--accent-color, #6a5acd);
+  background: rgba(255,255,255,0.75);
+}
+
+.business-central-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.business-central-metric {
+  border: 1px solid var(--border-color, rgba(0, 0, 0, 0.08));
+  border-radius: 1rem;
+  padding: 0.9rem;
+  background: rgba(255,255,255,0.75);
+}
+
+.business-central-metric strong {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.business-central-metric span {
+  color: var(--text-muted, #5d6470);
+  font-size: 0.9rem;
+}
+
+.analytics-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.analytics-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
 }
 
 .hub-card-eyebrow,
@@ -121,11 +183,17 @@
 @media (max-width: 760px) {
   .hub-grid,
   .recruiter-grid,
-  .resume-grid {
+  .resume-grid,
+  .business-central-grid {
     grid-template-columns: 1fr;
   }
 
-  .hub-card-primary {
+  .hub-card-primary,
+  .business-central-card-wide {
     grid-column: span 1;
+  }
+
+  .business-central-metrics {
+    grid-template-columns: 1fr 1fr;
   }
 }
